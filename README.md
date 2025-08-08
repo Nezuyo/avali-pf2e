@@ -1,4 +1,4 @@
-A simple module made for the express purpose of adding a homebrew Ancestry into the Pathfinder 2e system, and a companion module to the corrosponding CUP-complaint homebrew release!
+A simple module made for the express purpose of adding a homebrew Ancestry into the Pathfinder 2e system, and a companion module to the corresponding CUP-complaint homebrew release!
 
 
 **Requirements:**
