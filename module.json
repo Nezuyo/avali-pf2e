@@ -1,0 +1,153 @@
+{
+  "id": "avali-pf2e",
+  "title": "Avali: PF2e",
+  "description": "<p>The companion module to An Avali's Guide to the Pact Worlds, integrating Avali as a playable ancestry into the Pathfinder 2e system!</p><p>Requires Starfinder Anachronism.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13.345",
+    "verified": "13.345"
+  },
+  "authors": [
+    {
+      "name": "Nezuyo",
+      "email": "nezuyoavali@gmail.com",
+      "url": "https://bsky.app/profile/nezuyo.bsky.social",
+      "discord": "nezuyo",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ancestries",
+      "label": "Ancestries",
+      "banner": "modules/avali-pf2e/art/tiles/tile-00.webp",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "banner": "modules/avali-pf2e/art/tiles/tile-01.webp",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "banner": "modules/avali-pf2e/art/tiles/tile-02.webp",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "features",
+      "label": "Features",
+      "banner": "modules/avali-pf2e/art/tiles/tile-03.webp",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "banner": "modules/avali-pf2e/art/tiles/tile-04.webp",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "banner": "modules/avali-pf2e/art/tiles/tile-05.webp",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Avali Ancestry",
+      "sorting": "m",
+      "packs": [
+        "ancestries",
+        "equipment",
+        "feats",
+        "features",
+        "heritages",
+        "journals"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "flags": {
+    "avali-pf2e": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "avali": "PFAvali.Trait.Avali"
+        },
+        "featTraits": {
+          "avali": "PFAvali.Trait.Avali"
+        },
+        "weaponTraits": {
+          "avali": "PFAvali.Trait.Avali"
+        },
+        "languages": {
+          "avalian core": "Avalian Core"
+        }
+      }
+    }
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.3.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "sf2e-anachronism",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}

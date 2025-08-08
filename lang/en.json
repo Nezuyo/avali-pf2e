@@ -1,0 +1,29 @@
+{
+	"PFAvali": {
+		"BaseWeapon":{
+			"Omnitool": "Omnitool"
+		},
+		"BattleForm":{
+			"Attack": {
+				"Talon": "Talon",
+				"Jaws": "Jaws"
+			}
+		},
+		"SpecificRule": {
+			"Avali":{
+				"WeaponFamiliarity": {
+                    "AdvancedWeapons": "Advanced Avali Weapons",
+                    "MartialWeapons": "Martial Avali Weapons"
+                }
+			}
+		},
+		"Trait":{
+			"Avali": "Avali"
+		},
+		"Weapon":{
+			"Base":{
+				"talon": "Talon"
+			}
+		}
+	}
+}
