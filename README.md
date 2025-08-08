@@ -1,4 +1,4 @@
-A simple module made for the express purpose of adding a homebrew Ancestry into the Pathfinder 2e system, and a companion module to the corresponding CUP-complaint homebrew release, An Avali's Guide to the Pact Worlds!
+A simple module made for the express purpose of adding a homebrew Ancestry into the Pathfinder 2e system, and a companion module to the corresponding CUP-complaint homebrew release, [An Avali's Guide to the Pact Worlds](https://nezuyo.itch.io/an-avalis-guide-to-the-pact-worlds)!
 
 
 **Requirements:**
