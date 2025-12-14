@@ -9,6 +9,9 @@
 				"Jaws": "Jaws"
 			}
 		},
+		"Language":{
+			"AvalianCore": "Avalian Core"
+		},
 		"SpecificRule": {
 			"Avali":{
 				"WeaponFamiliarity": {
