@@ -5,7 +5,9 @@ A simple module made for the express purpose of adding a homebrew Ancestry into 
 
 **Compatible Systems:**
 * Pathfinder 2nd Edition, Version 7.8.0
+
 **OR**
+
 * Starfinder 2nd Editionn, Version 0.0.1
 
 **Recommended Modules**
