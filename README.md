@@ -1,8 +1,14 @@
-A simple module made for the express purpose of adding a homebrew Ancestry into the Pathfinder 2e system, and a companion module to the corresponding CUP-complaint homebrew release, [An Avali's Guide to the Pact Worlds](https://nezuyo.itch.io/an-avalis-guide-to-the-pact-worlds)!
+A simple module made for the express purpose of adding a homebrew Ancestry into the **Pathfinder 2e** and **Starfinder 2e** system, and a companion module to the corresponding CUP-complaint homebrew release, [An Avali's Guide to the Pact Worlds](https://nezuyo.itch.io/an-avalis-guide-to-the-pact-worlds)!
 
 **Requirements:**
 * Foundry Version 13 Build 351
+
+**Compatible Systems:**
 * Pathfinder 2nd Edition, Version 7.8.0
+**OR**
+* Starfinder 2nd Editionn, Version 0.0.1
+
+**Recommended Modules**
 * Starfinder Anachronism, Version 1.3.3
 
 **Legal Disclaimers**
