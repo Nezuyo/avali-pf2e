@@ -1,10 +1,10 @@
 {
   "id": "avali-pf2e",
-  "title": "Avali: PF2e",
-  "description": "<p>The companion module to An Avali's Guide to the Pact Worlds, integrating Avali as a playable ancestry into the Pathfinder 2e system!</p><p>Requires Starfinder Anachronism.</p>",
-  "version": "1.0.2",
+  "title": "Avali: PF2e & SF2e",
+  "description": "<p>The companion module to An Avali's Guide to the Pact Worlds, integrating Avali as a playable ancestry into the Pathfinder 2e and Starfinder 2e systems!</p>",
+  "version": "2.0.0",
   "manifest": "https://github.com/Nezuyo/avali-pf2e/releases/latest/download/module.json",
-  "download": "https://github.com/Nezuyo/avali-pf2e/releases/download/1.0.2/module.zip",
+  "download": "https://github.com/Nezuyo/avali-pf2e/releases/download/2.0.0/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"
@@ -20,10 +20,10 @@
   ],
   "packs": [
     {
-      "name": "ancestries",
+      "name": "ancestries-pf2e",
       "label": "Ancestries",
       "banner": "modules/avali-pf2e/art/tiles/tile-00.webp",
-      "path": "packs/ancestries",
+      "path": "packs/ancestries-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -33,10 +33,10 @@
       "flags": {}
     },
     {
-      "name": "equipment",
+      "name": "equipment-pf2e",
       "label": "Equipment",
       "banner": "modules/avali-pf2e/art/tiles/tile-01.webp",
-      "path": "packs/equipment",
+      "path": "packs/equipment-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -46,10 +46,10 @@
       "flags": {}
     },
     {
-      "name": "feats",
+      "name": "feats-pf2e",
       "label": "Feats",
       "banner": "modules/avali-pf2e/art/tiles/tile-02.webp",
-      "path": "packs/feats",
+      "path": "packs/feats-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -59,10 +59,10 @@
       "flags": {}
     },
     {
-      "name": "features",
+      "name": "features-pf2e",
       "label": "Features",
       "banner": "modules/avali-pf2e/art/tiles/tile-03.webp",
-      "path": "packs/features",
+      "path": "packs/features-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -72,10 +72,10 @@
       "flags": {}
     },
     {
-      "name": "heritages",
+      "name": "heritages-pf2e",
       "label": "Heritages",
       "banner": "modules/avali-pf2e/art/tiles/tile-04.webp",
-      "path": "packs/heritages",
+      "path": "packs/heritages-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -85,12 +85,90 @@
       "flags": {}
     },
     {
-      "name": "journals",
+      "name": "journals-pf2e",
       "label": "Journals",
       "banner": "modules/avali-pf2e/art/tiles/tile-05.webp",
-      "path": "packs/journals",
+      "path": "packs/journals-pf2e",
       "type": "JournalEntry",
       "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "ancestries-sf2e",
+      "label": "Ancestries",
+      "banner": "modules/avali-pf2e/art/tiles/tile-00.webp",
+      "path": "packs/ancestries-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment-sf2e",
+      "label": "Equipment",
+      "banner": "modules/avali-pf2e/art/tiles/tile-01.webp",
+      "path": "packs/equipment-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats-sf2e",
+      "label": "Feats",
+      "banner": "modules/avali-pf2e/art/tiles/tile-02.webp",
+      "path": "packs/feats-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "features-sf2e",
+      "label": "Features",
+      "banner": "modules/avali-pf2e/art/tiles/tile-03.webp",
+      "path": "packs/features-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "heritages-sf2e",
+      "label": "Heritages",
+      "banner": "modules/avali-pf2e/art/tiles/tile-04.webp",
+      "path": "packs/heritages-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journals-sf2e",
+      "label": "Journals",
+      "banner": "modules/avali-pf2e/art/tiles/tile-05.webp",
+      "path": "packs/journals-sf2e",
+      "type": "JournalEntry",
+      "system": "sf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -103,12 +181,26 @@
       "name": "Avali Ancestry",
       "sorting": "m",
       "packs": [
-        "ancestries",
-        "equipment",
-        "feats",
-        "features",
-        "heritages",
-        "journals"
+        "ancestries-pf2e",
+        "equipment-pf2e",
+        "feats-pf2e",
+        "features-pf2e",
+        "heritages-pf2e",
+        "journals-pf2e"
+      ],
+      "color": null,
+      "folders": []
+    },
+    {
+      "name": "Avali Ancestry",
+      "sorting": "m",
+      "packs": [
+        "ancestries-sf2e",
+        "equipment-sf2e",
+        "feats-sf2e",
+        "features-sf2e",
+        "heritages-sf2e",
+        "journals-sf2e"
       ],
       "color": null,
       "folders": []
@@ -146,16 +238,26 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "7.8.0"
+          "minimum": "7.8.0",
+          "verified": "7.8.0"
+        }
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.0.1",
+          "verified": "0.0.1"
         }
       }
     ],
-    "requires": [
+    "recommended": [
       {
         "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {
-          "minimum": "1.3.3"
+          "minimum": "1.3.3",
+          "verified": "1.3.3"
         }
       }
     ]
